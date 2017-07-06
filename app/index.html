@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+<!--   jenga     -->
+      <a-box position="-4 0.5 -4" rotation="0 90 0" width="3" height="1" color="#4CC3D9"></a-box>
+      <a-box position="-3 0.5 -4" rotation="0 90 0" width="3" height="1" color="#00C300"></a-box>
+      <a-box position="-2 0.5 -4" rotation="0 90 0" width="3" height="1" color="#FF0000"></a-box>
+      
+      <a-box position="-3 1.5 -5" rotation="0 0 0" width="3" height="1" color="#4CC3D9"></a-box>
+      <a-box position="-3 1.5 -3" rotation="0 0 0" width="3" height="1" color="#00C300"></a-box>
+      <a-box position="-3 1.5 -3" rotation="0 0 0" width="3" height="1" color="#FF00EE"></a-box>
+      
+      <a-box position="-4 2.5 -4" rotation="0 90 0" width="3" height="1" color="#4CC3D9"></a-box>
+      <a-box position="-3 2.5 -4" rotation="0 90 0" width="3" height="1" color="#00C300"></a-box>
+      <a-box position="-2 2.5 -4" rotation="0 90 0" width="3" height="1" color="#FFEE00"></a-box>
+      
+      <a-box position="-3 3.5 -5" rotation="0 0 0" width="3" height="1" color="#4CC3D9"></a-box>
+      <a-box position="-3 3.5 -4" rotation="0 0 0" width="3" height="1" color="#00C300"></a-box>
+      <a-box position="-3 3.5 -3" rotation="0 0 0" width="3" height="1" color="#00000"></a-box>
+      
+      
+      <a-sphere position="5 1 -5" radius="1.25" color="#FFFF00"></a-sphere>
+      <a-sphere position="-6 2 -2" radius="1.25" color="#FF0000"></a-sphere>
+      <a-cylinder position="5 1.25 -3" radius="0.25" height="6" color="#6600CC"></a-cylinder>
+      <a-box position="5 4 -3" rotation="0 90 0" color="#00C300"></a-box>
+      
+      <a-sphere position="-15 6.5 15" radius="1.5" color="#FFF"></a-sphere>
+      <a-sphere position="-15 4 15" radius="2.0" color="#FFF"></a-sphere>
+      <a-sphere position="-15 1.5 15" radius="2.5" color="#FFF"></a-sphere>
+      <a-cone position="-15 6.5 17" rotation="90 0 0" color="orange" radius-bottom="0.25" radius-top="0" height="1"></a-cone>
+      <a-sphere position="-16 6.55 16.0" radius="0.15" color="#000"></a-sphere>
+      <a-sphere position="-14.25 6.55 16.25" radius="0.15" color="#000"></a-sphere>
+      
+      
+<!-- tile floor       -->
+      <a-plane position="-1 6 11" side="double" rotation="0 0 180" width="20" height="16" color="#aa0000"></a-plane>
+      <a-plane position="-11 6 0" side="double" rotation="0 90 0" width="22" height="16" color="#af0000"></a-plane>
+  
+      <a-plane position="-1 6 -11" side="double" rotation="0 0 180" width="20" height="16" color="#ac0000"></a-plane>
+      
+      <a-plane position="9 6 0" side="double" rotation="0 90 0" width="22" height="16" color="#ae0000"></a-plane>
+      
+      
+      <a-box position="-5 2 8"  rotation="0 90 0" color="#00C300"></a-box>
+      
+      <a-plane position="-10 0 10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-8 0 10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-6 0 10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-4 0 10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-2 0 10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="0 0 10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="2 0 10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="4 0 10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="6 0 10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="8 0 10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      
+      <a-plane position="-10 0 8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-8 0 8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-6 0 8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-4 0 8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-2 0 8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="0 0 8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="2 0 8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="4 0 8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="6 0 8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="8 0 8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      
+      <a-plane position="-10 0 6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-8 0 6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-6 0 6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-4 0 6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-2 0 6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="0 0 6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="2 0 6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="4 0 6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="6 0 6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="8 0 6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      
+      <a-plane position="-10 0 4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-8 0 4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-6 0 4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-4 0 4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-2 0 4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="0 0 4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="2 0 4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="4 0 4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="6 0 4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="8 0 4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      
+      <a-plane position="-10 0 2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-8 0 2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-6 0 2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-4 0 2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-2 0 2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="0 0 2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="2 0 2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="4 0 2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="6 0 2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="8 0 2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      
+<!--   midway point, near camera ; camera starts out pointing this way    -->
+      
+      <a-plane position="-10 0 0" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-8 0 0" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-6 0 0" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-4 0 0" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-2 0 0" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="0 0 0" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="2 0 0" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="4 0 0" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="6 0 0" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="8 0 0" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      
+      <a-plane position="-10 0 -2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-8 0 -2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-6 0 -2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-4 0 -2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-2 0 -2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="0 0 -2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="2 0 -2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="4 0 -2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="6 0 -2" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="8 0 -2" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      
+      <a-plane position="-10 0 -4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-8 0 -4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-6 0 -4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-4 0 -4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-2 0 -4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="2 0 -4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="4 0 -4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="6 0 -4" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="8 0 -4" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      
+      <a-plane position="-10 0 -6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-8 0 -6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-6 0 -6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-4 0 -6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-2 0 -6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="0 0 -6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="2 0 -6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="4 0 -6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="6 0 -6" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="8 0 -6" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      
+      <a-plane position="-10 0 -8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-8 0 -8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-6 0 -8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-4 0 -8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-2 0 -8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="0 0 -8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="2 0 -8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="4 0 -8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="6 0 -8" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="8 0 -8" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+
+      <a-plane position="-10 0 -10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-8 0 -10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-6 0 -10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="-4 0 -10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="-2 0 -10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="0 0 -10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="2 0 -10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="4 0 -10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      <a-plane position="6 0 -10" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      <a-plane position="8 0 -10" rotation="-90 0 0" width="2" height="2" color="#fff"></a-plane>
+      
+        
+    
+      
+      <a-sky color="#CDCDFF"></a-sky>
+    </a-scene>
+  </body>
+</html>
